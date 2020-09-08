@@ -1,6 +1,8 @@
 const buttonRight = document.getElementById('right');
 const buttonLeft = document.getElementById('left');
 const wrapper = document.getElementById('wrapper');
+console.log(wrapper.scrollWidth);
+
 
 function removeRight(){
     buttonRight.style.opacity = '0';
