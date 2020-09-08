@@ -90,3 +90,31 @@ body{
     height: 25px;
 }
 
+@media screen and (max-width: 540px){
+    .story-container{
+        width: 100%;
+        height: 100%;
+    }
+
+    .story-container ul{
+        width: 100%;
+        border: 1px 0 1px 0 solid #c5c5c5;
+    }
+
+    .story-container ul li{
+        padding: 0 8px;
+    }
+
+    .slidebtn{
+        display: none;
+    }
+
+    .story-container ul li .story{
+        width: 65px;
+        height: 65px;
+    }
+
+    .user{
+        font-size: .8rem;
+    }
+}
