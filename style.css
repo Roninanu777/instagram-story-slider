@@ -31,7 +31,6 @@ body{
     scroll-behavior: smooth;
     border: 1px solid #c5c5c5;
     overflow-x: scroll;
-    transition: overflow-x .3s cubic-bezier(0.24, 1.01, 0.98, 1.04);
 }
 
 .story-container ul::-webkit-scrollbar{
